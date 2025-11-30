@@ -72,7 +72,6 @@ export default function ChatbotProject() {
 
     function handleInputChange(text){
         setCurrInput(text);
-        // console.log(text);
     }
 
     function handleKey(e){

@@ -5,6 +5,7 @@ import "./chatmessage.css"
 export default function ChatMessage({message, sender}) {
 
     const alignmentClass = sender === "robot" ? "robot-message" : "sender-message";
+    
     return (
         <div className={`chatmes ${alignmentClass}`}>
             {sender === "robot" && <img src={robot} width="50"/>}
