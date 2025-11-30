@@ -1,0 +1,27 @@
+.inputBox{
+    padding: 0.5rem;
+    border: 2px solid black;
+    margin-right: 2rem;
+    border-radius: 0.6rem;
+    width: 500px;
+    height: 40px;
+    font-size: 0.9rem;
+}
+
+.sendButton{
+    background-color: #198755;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+    color: white;
+    box-shadow: 1px 1px 6px grey;
+}
+
+.chatinput{
+    display: flex;
+    justify-content: center; 
+    width: 600px; 
+    margin-bottom: 30px; 
+}
+

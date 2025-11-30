@@ -1,0 +1,61 @@
+.contain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 1rem;
+    gap: 10px;
+    padding: 0 10%;
+    width: 80%;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.chat-header {
+    position: fixed;
+    z-index: 100; 
+    
+}
+
+.chat-msg-but{
+    display: flex;
+    
+}
+
+.chat-msg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.but{
+    position: fixed;
+    bottom: 10%;
+    right: 15%;
+}
+
+.but button{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.but button:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+.but button img{
+    width: 20px;
+}
